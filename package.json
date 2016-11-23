@@ -22,15 +22,19 @@
     "loop"
   ],
   "scripts": {
-    "preinstall" : "npm install node-pre-gyp",
+    "preinstall": "node -e 'process.exit(0)'",
     "install": "node-pre-gyp install --fallback-to-build",
     "rebuild": "node-gyp rebuild",
     "test": "mocha"
   },
   "dependencies": {
-    "nan": "^2.0.5"
+    "nan": "^2.3.2",
+    "node-pre-gyp": "^0.6.5"
   },
   "gypfile": true,
+  "engines": {
+    "node": ">=0.10"
+  },
   "devDependencies": {
     "chai": "3.3.0",
     "mocha": "2.3.3"
