@@ -1,0 +1,62 @@
+{
+  "name": "cavisson-event-loop-stats",
+  "version": "1.0.0",
+  "description": "Exposes stats about the libuv default loop",
+  "main": "src/eventLoopStats.js",
+  "author": {
+    "name": "Ben Ripkens",
+    "email": "bripkens.dev@gmail.com"
+  },
+  "license": "MIT",
+  "binary": {
+    "module_name": "eventLoopStats",
+    "module_path": "./build/{module_name}/v{version}/{node_abi}-{platform}-{arch}/",
+    "remote_path": "./{module_name}/v{version}/",
+    "package_name": "{module_name}-v{version}-{node_abi}-{platform}-{arch}.tar.gz",
+    "host" : "https://node-pre-gyp-tests.s3-us-west-1.amazonaws.com"
+  },
+  "keywords": [
+    "libuv",
+    "stats",
+    "monitoring",
+    "loop"
+  ],
+  "scripts": {
+    "preinstall" : "npm install node-pre-gyp",
+    "install": "node-pre-gyp install --fallback-to-build",
+    "rebuild": "node-gyp rebuild",
+    "test": "mocha"
+  },
+  "dependencies": {
+    "nan": "^2.0.5"
+  },
+  "gypfile": true,
+  "devDependencies": {
+    "chai": "3.3.0",
+    "mocha": "2.3.3"
+  },
+  "gitHead": "f7c7836f930a595c48706f06345c656c5c6188b1",
+  "homepage": "https://github.com/sahildhall/cavisson-event-loop-stats#readme",
+  "_id": "cavisson-event-loop-stats@1.0.0",
+  "_shasum": "ec61777eab5ef9ac57342d9c5d366d01cf879f19",
+  "_from": "cavisson-event-loop-stats@latest",
+  "_npmVersion": "2.13.2",
+  "_nodeVersion": "2.5.0",
+  "_npmUser": {
+    "name": "bripkens",
+    "email": "bripkens.dev@gmail.com"
+  },
+  "maintainers": [
+    {
+      "name": "bripkens",
+      "email": "bripkens.dev@gmail.com"
+    }
+  ],
+  "dist": {
+    "shasum": "ec61777eab5ef9ac57342d9c5d366d01cf879f19",
+    "tarball": "https://registry.npmjs.org/cavisson-event-loop-stats/-/cavisson-event-loop-stats-1.0.0.tgz"
+  },
+  "directories": {},
+  "_resolved": "https://registry.npmjs.org/cavisson-event-loop-stats/-/cavisson-event-loop-stats-1.0.0.tgz",
+  "readme": "ERROR: No README data found!"
+}
