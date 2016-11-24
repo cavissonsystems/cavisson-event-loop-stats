@@ -1,5 +1,5 @@
 var pack = require('../package.json');
-var eventLoopStats = require('./' + [
+var eventLoopStats = require('../' + [
     'build',
     'eventLoopStats',
     'v' + pack.version,
