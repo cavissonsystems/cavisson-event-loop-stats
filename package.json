@@ -4,8 +4,11 @@
   "description": "Exposes stats about the libuv default loop",
   "main": "src/eventLoopStats.js",
   "author": {
-    "name": "Ben Ripkens",
-    "email": "bripkens.dev@gmail.com"
+    "name": "Sahil Dhall"
+  },
+  "_npmUser": {
+    "name": "cavissonsystems",
+    "email": "balasudheer2802@gmail.com"
   },
   "license": "MIT",
   "binary": {
