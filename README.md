@@ -6,7 +6,7 @@
 ## Installation
 
 ```
-npm install --save event-loop-stats
+npm install --save cavisson-event-loop-stats
 ```
 
 ## Usage
