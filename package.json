@@ -1,6 +1,6 @@
 {
   "name": "cavisson-event-loop-stats",
-  "version": "1.0.11",
+  "version": "1.0.12",
   "description": "Exposes stats about the libuv default loop",
   "main": "src/eventLoopStats.js",
   "author": {
@@ -25,7 +25,6 @@
     "loop"
   ],
   "scripts": {
-    "install": "node-pre-gyp install --fallback-to-build",
     "preinstall": "node -e 'process.exit(0)'",
     "rebuild": "node-gyp rebuild",
     "test": "mocha"
