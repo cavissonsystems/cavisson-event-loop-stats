@@ -1,6 +1,6 @@
 {
   "name": "cavisson-event-loop-stats",
-  "version": "1.0.13",
+  "version": "1.0.14",
   "description": "Exposes stats about the libuv default loop",
   "main": "src/eventLoopStats.js",
   "author": {
