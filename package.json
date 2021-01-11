@@ -4,7 +4,7 @@
   "description": "Exposes stats about the libuv default loop",
   "main": "src/eventLoopStats.js",
   "author": {
-    "name": "Sahil Dhall"
+    "name": "CAVISSON (Sarang Shekhar)"
   },
   "_npmUser": {
     "name": "cavissonsystems",
